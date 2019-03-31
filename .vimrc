@@ -1,7 +1,12 @@
+" Syntax highlighting
 syntax on
-set expandtab
+
+" Line numbers and pair matching
 set number
 set showmatch
-set shiftwidth=4
+
+" Tab settings (four white spaces)
+filetype plugin indent on
 set tabstop=4
-set softtabstop=4
+set shiftwidth=4
+set expandtab
